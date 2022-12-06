@@ -128,7 +128,7 @@ local anls = win:Server("Animal Simulator", "")
 
 local anal = anls:Channel("Script")
 anal:button(
-	"",
+	"tolstiy hui | hub",
 	function()
 		loadstring(game:HttpGet"https://pastebin.com/raw/cytUA2UN")()
 	end
