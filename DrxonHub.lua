@@ -111,13 +111,13 @@ jbks:Button(
 local blxfr = win:Server("Blox Fruits", "")
 
 local blx = blxfr:Channel("Script")
-blx:button(
+blx:Button(
 	"ChibaHub",
 	function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHubcomeback/main/Chibacomebackbeta.txt'))()
 	end
 )
-blx:button(
+blx:Button(
 	"ThunderZ",
 	function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
@@ -127,8 +127,8 @@ blx:button(
 local anls = win:Server("Animal Simulator", "")
 
 local anal = anls:Channel("Script")
-anal:button(
-	"tolstiy hui | hub",
+anal:Button(
+	"",
 	function()
 		loadstring(game:HttpGet"https://pastebin.com/raw/cytUA2UN")()
 	end
@@ -137,7 +137,7 @@ anal:button(
 local ghoul = win:Server("Ro Ghoul", "")
 
 local ghl = ghoul:Channel("Script")
-ghl:button(
+ghl:Button(
 	"Kakoe-to Hub (name ne znau)",
 	function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
@@ -147,15 +147,61 @@ ghl:button(
 local xuy = win:Server("Car Dealership Tycoon", "")
 
 local car = xuy:Channel("Script")
-car:button(
+car:Button(
 	"Script NN",
 	function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/car/main/test5456"))()
 	end
 )
-car:button(
+car:Button(
 	"Eshe script",
 	function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
+	end
+)
+
+local abortme = win:Server("Adopt Me", "")
+
+local tram = abortme:Channel("Script")
+tram:Button(
+	"DIAMOND HUB",
+	function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+	end
+)
+tram:Button(
+	"BLOX HUB",
+	function()
+		_G.SubToBloxiScripts = true
+		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
+	end
+
+)
+tram:Button(
+	"ICE HUB",
+	function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+	end
+
+)
+tram:Button(
+	"V.G. HUB",
+	function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end
+
+)
+tram:Button(
+	"FLARE HUB",
+	function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/blin"))()
+	end
+
+)
+tram:Button(
+	"ECLIPSE HUB",
+	function()
+		getgenv().mainKey = "nil"
+		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 	end
 )
