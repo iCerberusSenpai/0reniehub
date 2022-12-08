@@ -68,6 +68,7 @@ spts:Button(
 	function()
 		if game.Players.LocalPlayer.Name == "xx1_st" or
 		game.Players.LocalPlayer.Name == "igromanvTV" or
+		game.Players.LocalPlayer.Name == "igromanvTV2" or
 		game.Players.LocalPlayer.Name == "" then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NCCHVH/spts/main/key"))()
 		else game.Players.LocalPlayer:Kick("SinHub: not have Premium REx")
