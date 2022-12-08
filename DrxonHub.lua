@@ -83,6 +83,7 @@ spts:Button(
 		game.Players.LocalPlayer.Name == "" then
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ScripterRBXlol/Sptsopascript/main/README.md"))()
 		else game.Players.LocalPlayer:Kick("SinHub: not have Premium REx")
+		end
 	end
 )
 
