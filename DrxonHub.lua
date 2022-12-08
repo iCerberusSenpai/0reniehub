@@ -64,6 +64,27 @@ spts:Toggle(
 		end
 	end
 )
+spts:Button(
+	"SinTA",
+	function()
+		if game.Players.LocalPlayer.Name == "xx1_st" or
+		game.Players.LocalPlayer.Name == "igromanvTV" or
+		game.Players.LocalPlayer.Name == "" then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NCCHVH/spts/main/key"))()
+		else game.Players.LocalPlayer:Kick("SinHub: not have Premium REx")
+		end
+	end
+)
+spts:Button(
+	"Godmode/AutoClicker/Rainbow Rank/Anti Afk",
+	function()
+		if game.Players.LocalPlayer.Name == "xx1_st" or
+		game.Players.LocalPlayer.Name == "igromanvTV" or
+		game.Players.LocalPlayer.Name == "" then
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ScripterRBXlol/Sptsopascript/main/README.md"))()
+		else game.Players.LocalPlayer:Kick("SinHub: not have Premium REx")
+	end
+)
 
 	
 
