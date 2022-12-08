@@ -76,7 +76,7 @@ spts:Button(
 	end
 )
 spts:Button(
-	"Godmode/AutoClicker/Rainbow Rank/Anti Afk",
+	"Godmode AutoClicker Rainbow Rank Anti Afk",
 	function()
 		if game.Players.LocalPlayer.Name == "xx1_st" or
 		game.Players.LocalPlayer.Name == "igromanvTV" or
@@ -85,9 +85,6 @@ spts:Button(
 		else game.Players.LocalPlayer:Kick("SinHub: not have Premium REx")
 	end
 )
-
-	
-
 
 local jbk = win:Server("JailBreak", "")
 
