@@ -49,17 +49,16 @@ spts:Button(
 	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
 	end
 )
-spts:Toggle(
+spts:Button(
 	"AntiBan Admins joined",
-	false,
 	function(sosy)
-		hui = sosy
-		while hui do
+			hui = sosy
+			while hui do
 			if game.Players:FindFirstChild("SirZellek1994") or
 			game.Players:FindFirstChild("Y499") or
 			game.Players:FindFirstChild("Sathopian") or
 			game.Players:FindFirstChild("logicalprocess") then
-				game.Players.LocalPlayers:Kick("Admin's guy joined")
+			game.Players.LocalPlayers:Kick("Admin's guy joined")
 			end
 		end
 	end
