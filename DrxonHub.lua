@@ -25,14 +25,14 @@ local btns = yba:Channel("Script")
 btns:Button(
     "YBA Script (Xenon Hub)",
     function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SnaxScripts/Scripts/main/yba%20xenon"))()
     end
 )
 
 btns:Button(
     "YBA Script (KOLGIE V6)",
     function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
     end
 )
 
