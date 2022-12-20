@@ -14,7 +14,7 @@ end)
 local credit = win:Server("Credits", "")
 
 local crdt = credit:Channel("Created")
-crdt:Label("Owner hub: Sin / Drxon#4759")
+crdt:Label("Owner hub: Lola, ya konchayu!#4759")
 crdt:Label("Ad my script: IgromanvTV#3079")
 crdt:Label("Server discord: https://discord.gg/CwVevtGAZG")
 crdt:Label("Special for Rex <3")
@@ -37,11 +37,6 @@ btns:Button(
 )
 
 local soc = win:Server("SPTS", "")
-
-local spts = soc:Channel("Помощь")
-spts:Label("Запускаете Black Hub, Затем нажимаете фарм Body")
-spts:Label("(или тп на ту локацию где вас не убивает) потом Splitting")
-spts:Label("Потом сами выбираете что вам фармить следующим")
 
 local spts = soc:Channel("Script")
 spts:Button(
