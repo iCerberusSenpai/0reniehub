@@ -2,7 +2,14 @@
 local DiscordLib =
     loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
-local win = DiscordLib:Window("Sin Hub v0.0.1")
+local win = DiscordLib:Window("Sin Hub v0.0.3")
+
+-- Anti Idle --
+local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+	VirtualUser:CaptureController()
+	VirtualUser:ClickButton2(Vector2.new())
+end)
 
 local credit = win:Server("Credits", "")
 
